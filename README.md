@@ -24,6 +24,7 @@ This repo covers both. The engineering camp gets more space.
 ## Table of Contents
 
 - [📋 Prompts](#prompts) — copy-paste ready
+  - [Legacy (2023 era)](#legacy-2023-era--kept-for-reference)
 - [🔬 Frameworks](#frameworks) — the engineering camp
   - [Prompt Programming](#prompt-programming)
   - [Automatic Prompt Optimization](#automatic-prompt-optimization)
@@ -48,9 +49,8 @@ All prompts are open — click, copy, use directly.
 
 | Name | Description | Prompt |
 |------|-------------|--------|
-| 💻 Professional Coder | Expert coding assistant — auto programming, project generation, any language | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/%F0%9F%92%BBProfessional%20Coder.md) |
 | ⚡ Claude Artifacts | System prompt for generating rich Claude Artifacts (UI, interactive apps, code) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/claude_artifacts_prompt.md) |
-| 🤖 AutoGPT | Automates complex tasks end-to-end — full projects, structured documents | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/AutoGPT.md) |
+| 💻 Professional Coder | Expert coding assistant — auto programming, project generation, any language | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/%F0%9F%92%BBProfessional%20Coder.md) |
 
 ### Writing & Academic
 
@@ -64,8 +64,8 @@ All prompts are open — click, copy, use directly.
 
 | Name | Description | Prompt |
 |------|-------------|--------|
+| 🦌 Mr. Ranedeer v2.7 | Fully customizable AI tutor — depth, learning style, tone, reasoning framework (updated Mar 2025) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Mr_Ranedeer.txt) |
 | 📗 All-around Teacher | Adaptive tutor — explains anything in 3 minutes, customized to your level | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/%F0%9F%93%97All-around%20Teacher.md) |
-| 🦌 Mr. Ranedeer | Fully customizable AI tutor — configure learning style, depth, and personality | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Mr_Ranedeer.txt) |
 | 🚀 LearnOS PRO | Interactive learning assistant with dynamic, personalized explanations | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/LearnOS_PRO.txt) |
 
 ### Meta & Prompt Engineering
@@ -73,7 +73,6 @@ All prompts are open — click, copy, use directly.
 | Name | Description | Prompt |
 |------|-------------|--------|
 | ⚛ Meta Prompt | Meta-Expert orchestrates specialist sub-agents to solve complex problems | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/meta_prompt.txt) |
-| 🚀 SuperPrompt | Structured Q&A that generates complete, creative outputs from minimal input | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/SuperPrompt.md) |
 | 📓 Prompt Creator | Auto-generates high-quality prompts from a brief description | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Prompt%20Creater.md) |
 | 🎨 Meta MJ | Midjourney image prompt generator — structured visual prompt creation | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Meta%20MJ.md) |
 
@@ -84,13 +83,22 @@ All prompts are open — click, copy, use directly.
 | 🧛 Vampire: The Masquerade | Deep lore expert for Vampire: The Masquerade tabletop RPG | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Vampire%20The%20Masquerade%20Lore%20Expert.md) |
 | 💘 Beauty D&D | Text adventure romance simulator with DALL-E image generation (Chinese) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Beauty_DND.txt) |
 
-### Productivity & Translation
+### Translation
 
 | Name | Description | Prompt |
 |------|-------------|--------|
-| 💥 QuickSilver OS | Unlock advanced capabilities via a fictional OS interface | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/QuickSilver%20OS.md) |
-| 🌀 Luna | Creative workflow optimizer with a blend of innovation and empathy | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/luna_prompt.txt) |
 | 📄 PDF Translator | Translates PDF documents page by page, or plain text — multi-language | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/pdf_translator.txt) |
+
+### Legacy (2023 era — kept for reference)
+
+These prompts used slash-command or symbolic-encoding styles common in 2023. Still functional, but the conventions have moved on.
+
+| Name | Description | Prompt |
+|------|-------------|--------|
+| 🤖 AutoGPT | One-click task automation (GPT-3.5 era) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/AutoGPT.md) |
+| 💥 QuickSilver OS | Fictional OS interface for unlocking capabilities | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/QuickSilver%20OS.md) |
+| 🚀 SuperPrompt | Slash-command structured prompt engineering | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/SuperPrompt.md) |
+| 🌀 Luna | Symbol-encoded creative persona prompt | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/luna_prompt.txt) |
 
 ---
 
@@ -157,15 +165,18 @@ For teams that want to build RAG pipelines and agent workflows without writing e
 
 ## System Prompt Leaks
 
-The best way to learn how production AI products are built is to read their system prompts. These repos collect leaked / extracted system prompts from ChatGPT, Claude, Gemini, Copilot, and others.
+The best way to learn how production AI products are built is to read their system prompts. These repos collect leaked / extracted system prompts from real tools.
 
 | Repo | Stars | Notes |
 |------|-------|-------|
-| [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | ~35k | Largest active collection — ChatGPT, Claude, Gemini system prompts and developer messages |
+| [EliFuzz/awesome-system-prompts](https://github.com/EliFuzz/awesome-system-prompts) | ~131k | **Most comprehensive** — Cursor, Devin, Windsurf, Claude Code, v0, Lovable, Perplexity, Manus, Replit, Warp and 20+ more. Actively maintained. |
+| [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) | — | 5500+ lines across 25+ tools including full tool definitions and internal agent logic |
+| [Piebald-AI/claude-code-system-prompts](https://github.com/Piebald-AI/claude-code-system-prompts) | — | Claude Code internal prompts — main system prompt, 18 tool descriptions, Plan/Explore/Task sub-agent prompts, 135+ version changelog |
+| [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | ~35k | ChatGPT, Claude, Gemini system prompts and developer messages |
 | [jujumilk3/leaked-system-prompts](https://github.com/jujumilk3/leaked-system-prompts) | ~14k | Well-organized, includes tool call constraints and persona definitions |
 | [elder-plinius/CL4R1T4S](https://github.com/elder-plinius/CL4R1T4S) | ~14k | Focused on Claude system prompt analysis |
 
-**What to look for:** how roles are defined, how tool use is constrained, how refusals are framed, how multi-turn context is managed.
+**What to look for:** how roles are defined, how tool use is constrained, how planning is structured, how refusals are framed, how sub-agents are orchestrated.
 
 ---
 
@@ -356,6 +367,9 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [Weights & Biases](https://wandb.ai/site/solutions/llmops) | Experiment tracking and LLMOps |
 | [Promptingguide.ai](https://www.promptingguide.ai/) | Comprehensive prompt engineering reference (DAIR-AI) |
 | [awesome-ai-agent-papers](https://github.com/VoltAgent/awesome-ai-agent-papers) | Curated 2025–2026 papers on agent engineering, memory, eval, and workflows |
+| [langgptai/awesome-claude-prompts](https://github.com/langgptai/awesome-claude-prompts) | Claude-optimized prompts — XML tags, extended thinking, long-context patterns |
+| [langgptai/awesome-deep-research-prompts](https://github.com/langgptai/awesome-deep-research-prompts) | Prompts for OpenAI Deep Research, Gemini Deep Research, Perplexity Labs |
+| [Anthropic Prompt Library](https://docs.anthropic.com/en/prompt-library/library) | Official production-ready prompts from Anthropic |
 
 ---
 
