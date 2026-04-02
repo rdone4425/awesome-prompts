@@ -40,10 +40,16 @@ This repo covers both. The engineering camp gets more space.
   - [DevOps & SRE](#devops--sre)
   - [Data Engineering](#data-engineering)
   - [Product & Strategy](#product--strategy)
+  - [Legal & Compliance](#legal--compliance)
+  - [Writing & Academic](#writing--academic)
+  - [Learning & Education](#learning--education)
   - [Research & Analysis](#research--analysis)
   - [Productivity & Tasks](#productivity--tasks)
   - [Safety & Compliance](#safety--compliance)
+  - [Meta & Prompt Engineering](#meta--prompt-engineering)
   - [Image & Video Generation](#image--video-generation)
+  - [Creative & Role-play](#creative--role-play)
+  - [Translation](#translation)
   - [Legacy (2023 era)](#legacy-2023-era--kept-for-reference)
 - [🔬 Frameworks](#frameworks) — the engineering camp
   - [Prompt Programming](#prompt-programming)
@@ -102,6 +108,16 @@ All prompts are open — click, copy, use directly.
 | Name | Description | Prompt |
 |------|-------------|--------|
 | 🧭 Product Manager | Full product lifecycle — discovery to launch; PRD template, RICE scoring, Now/Next/Later roadmap, GTM brief, outcome measurement (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/product_manager.md) |
+| 💼 CFO / Financial Strategy | Chief Financial Officer driving capital allocation and enterprise value — FP&A, fundraising, M&A, pricing strategy, board reporting (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/cfo_financial_strategy.txt) |
+| 📊 Sales Strategist | Sales leader optimizing pipeline, win rates, territory planning, deal acceleration — BANT/MEDDIC, quota setting, GTM execution (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/sales_strategist.txt) |
+| ⚙️ Operations Manager | Ops leader optimizing processes, reducing costs, enabling scale — Lean, bottleneck analysis, cost structure, systems integration (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/operations_manager.txt) |
+| 🎯 Recruitment Strategist | Talent acquisition leader building pipelines and optimizing hiring — sourcing, competency modeling, offer strategy, retention focus (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/recruitment_strategist.txt) |
+
+### Legal & Compliance
+
+| Name | Description | Prompt |
+|------|-------------|--------|
+| ⚖️ Legal Analyst | Comprehensive legal research and contract analysis — IRAC methodology, regulatory compliance, litigation risk, IP strategy, M&A due diligence (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/legal_analyst.txt) |
 
 ### Writing & Academic
 
