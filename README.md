@@ -143,6 +143,8 @@ All prompts are open — click, copy, use directly.
 |------|-------------|--------|
 | 🔬 Deep Research Agent | Multi-step research system prompt — plan, search, cross-check, synthesize (2025) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/deep_research.txt) |
 | 📊 Data Analysis | Extract insights, flag anomalies, recommend specific visualizations | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/data_analysis.txt) |
+| 🧠 Reasoning Specialist | Structured thinking for complex problems — problem decomposition, CoT reasoning, hypothesis generation, multi-path exploration, confidence assessment (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/reasoning_specialist.txt) |
+| 🎨 Multimodal Analyst | Vision-text-data integration — image analysis, document processing, chart interpretation, scene understanding, cross-modal reasoning (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/multimodal_analyst.txt) |
 | 🗂 Structured Output Extractor | Schema-strict JSON extraction — type safety, null handling, multi-record, self-validation (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/structured_output_extractor.txt) |
 | 📈 Investment Research Analyst | Senior equity analyst — business model assessment, financial health, competitive moat, valuation (DCF/comps), bull/bear thesis (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/investment_research_analyst.txt) |
 | 🗺 Market Research Strategist | Market research director — market sizing (bottom-up + top-down), segmentation, competitive map, white-space opportunities, GTM recommendations (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/market_research_strategist.txt) |
@@ -170,6 +172,7 @@ All prompts are open — click, copy, use directly.
 | 🧠 Reasoning Model Prompting | Guide + templates for o1/o3/Claude thinking/Gemini — what to do, what NOT to do, effort control (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/reasoning_model_prompting.txt) |
 | ⚛ Meta Prompt | Meta-Expert orchestrates specialist sub-agents to solve complex problems | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/meta_prompt.txt) |
 | 📓 Prompt Creator | Auto-generates high-quality prompts from a brief description | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Prompt%20Creater.md) |
+| 🧪 Eval & Benchmark Architect | Benchmark design, evaluation metrics, rubric development, failure mode analysis, continuous monitoring — regression testing, cost-effective evaluation (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/eval_benchmark_architect.txt) |
 
 ### Image & Video Generation
 
