@@ -108,9 +108,12 @@ All prompts are open — click, copy, use directly.
 | Name | Description | Prompt |
 |------|-------------|--------|
 | 🧭 Product Manager | Full product lifecycle — discovery to launch; PRD template, RICE scoring, Now/Next/Later roadmap, GTM brief, outcome measurement (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/product_manager.md) |
+| 🎯 UX Research Specialist | Research methodology and user insights — qualitative interviews, usability testing, survey design, metrics analysis, journey mapping, stakeholder communication (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/ux_research_specialist.txt) |
 | 💼 CFO / Financial Strategy | Chief Financial Officer driving capital allocation and enterprise value — FP&A, fundraising, M&A, pricing strategy, board reporting (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/cfo_financial_strategy.txt) |
 | 📊 Sales Strategist | Sales leader optimizing pipeline, win rates, territory planning, deal acceleration — BANT/MEDDIC, quota setting, GTM execution (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/sales_strategist.txt) |
+| 💬 Customer Success Strategist | Account success leader maximizing lifetime value — health scoring, account planning, executive engagement, EBRs, retention & expansion, advocacy programs (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/customer_success_strategist.txt) |
 | ⚙️ Operations Manager | Ops leader optimizing processes, reducing costs, enabling scale — Lean, bottleneck analysis, cost structure, systems integration (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/operations_manager.txt) |
+| 🔄 Change Management Leader | Organizational transformation and adoption — stakeholder alignment, communication strategy, training programs, adoption tracking, sustainment, cultural change (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/change_management_leader.txt) |
 | 🎯 Recruitment Strategist | Talent acquisition leader building pipelines and optimizing hiring — sourcing, competency modeling, offer strategy, retention focus (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/recruitment_strategist.txt) |
 
 ### Legal & Compliance
@@ -488,6 +491,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [Reasoning Models Generate Societies of Thought (2026)](https://arxiv.org/abs/2601.10825) | Google DeepMind: DeepSeek-R1/QwQ-32B superior reasoning emerges from simulating internal multi-agent dialogue — base models trained purely on reasoning accuracy spontaneously develop questioning, perspective-switching, and contradiction-resolving behaviors | [PDF](papers/Reasoning_Models_Generate_Societies_of_Thought.pdf) |
 | [Reasoning Theater: Disentangling Model Beliefs from CoT (2026)](https://arxiv.org/abs/2603.05488) | For simple tasks, the model's final answer is already decodable from early-layer activations before CoT generates a single token — CoT produces genuine belief change only on hard problems; probe-guided early-exit reduces token generation by 80% on simple tasks | [PDF](papers/Reasoning_Theater_CoT_vs_Model_Beliefs.pdf) |
 | [FLARE: Why Reasoning Fails to Plan (2026)](https://arxiv.org/abs/2601.22311) | Diagnoses root cause of LLM agent long-horizon planning failures (stepwise reasoning induces greedy policy); FLARE (Future-aware Lookahead + Reward Estimation) lets LLaMA-8B surpass GPT-4o on planning benchmarks | [PDF](papers/FLARE_Why_Reasoning_Fails_to_Plan.pdf) |
+| [Agentic Code Reasoning (March 2026)](https://arxiv.org/abs/2603.01896) | Semi-formal reasoning using structured templates requiring explicit evidence — achieves 87% accuracy on code QA, 9 pp gain over standard agentic reasoning; enables interpretable code understanding for complex reasoning tasks |
 
 ### Surveys
 
@@ -515,6 +519,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 
 | Paper | Key Contribution |
 |-------|-----------------|
+| [Experience as a Compass: Multi-Agent RAG with Evolving Orchestration (April 2026)](https://arxiv.org/abs/2604.00901) | HERA: 3-layer hierarchical framework that jointly evolves global orchestration strategies and local agent behaviors using experiential knowledge — role-aware prompt optimization drives targeted improvements for each agent's responsibilities |
 | [G2CP: Graph-Grounded Communication Protocol for Multi-Agent Reasoning (2026)](https://arxiv.org/abs/2602.13370) | Replaces free-text agent messages with explicit graph operations (traversal, subgraph fragments, updates) over a shared knowledge graph — 73% token reduction, 34% accuracy improvement, fully auditable reasoning chains | [PDF](papers/G2CP_Graph_Grounded_Multi_Agent_Communication_Protocol.pdf) |
 | [AdaptOrch: Task-Adaptive Multi-Agent Orchestration (2026)](https://arxiv.org/abs/2602.16873) | Topology selection (parallel/sequential/hierarchical/hybrid) matters more than model choice — AdaptOrch automatically picks the right topology per task; 12–23% improvement over static single-topology baselines across SWE-bench, GPQA, and RAG | [PDF](papers/AdaptOrch_Task_Adaptive_Multi_Agent_Orchestration.pdf) |
 | [The Orchestration of Multi-Agent Systems (2026)](https://arxiv.org/abs/2601.13671) | Systematic academic analysis of MCP and A2A as complementary communication protocols; enterprise-grade multi-agent orchestration architecture covering governance, observability, and organizational adoption patterns | |
