@@ -125,6 +125,9 @@ All prompts are open — click, copy, use directly.
 | 🔄 Change Management Leader | Organizational transformation and adoption — stakeholder alignment, communication strategy, training programs, adoption tracking, sustainment, cultural change (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/change_management_leader.txt) |
 | 🎯 Recruitment Strategist | Talent acquisition leader building pipelines and optimizing hiring — sourcing, competency modeling, offer strategy, retention focus (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/recruitment_strategist.txt) |
 | 💬 Community Manager | Community leader building engaged, healthy communities — moderation, engagement loops, advocacy programs, member lifecycle, culture building (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/community_manager.txt) |
+| 🎨 Brand Strategist | Brand building and reputation — positioning, messaging, visual identity, GEO (Generative Engine Optimization), crisis management, brand experience (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/brand_strategist.txt) |
+| 👥 HR / Talent Development | Talent development and performance — recruitment, onboarding, learning, career development, culture, DEI, engagement, retention (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/hr_talent_development.txt) |
+| 💰 Financial Advisor | Comprehensive wealth management — financial planning, investment strategy, risk management, tax optimization, estate planning, behavioral coaching (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/financial_advisor.txt) |
 
 ### Legal & Compliance
 
