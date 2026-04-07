@@ -41,6 +41,7 @@ This repo covers both. The engineering camp gets more space.
   - [Data Engineering](#data-engineering)
   - [AI & ML](#ai--ml)
   - [Product & Strategy](#product--strategy)
+  - [Healthcare & Clinical](#healthcare--clinical)
   - [Legal & Compliance](#legal--compliance)
   - [Knowledge & Documentation](#knowledge--documentation)
   - [Writing & Academic](#writing--academic)
@@ -97,6 +98,7 @@ All prompts are open — click, copy, use directly.
 |------|-------------|--------|
 | 🚨 Incident Response Commander | Incident commander — SEV1-4 matrix, real-time coordination, blameless post-mortems, SLO/SLI framework, stakeholder comms templates (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/incident_response_commander.md) |
 | 🛡 SRE | Site reliability engineer — SLO/error budget framework, observability three pillars, golden signals, toil reduction, chaos engineering (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/sre.md) |
+| ☁️ Cloud Architect | Senior cloud architect — multi-cloud (AWS/Azure/GCP), Well-Architected Framework, migration 6Rs, FinOps, zero-trust, disaster recovery, IaC (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/cloud_architect.txt) |
 
 ### Data Engineering
 
@@ -128,6 +130,13 @@ All prompts are open — click, copy, use directly.
 | 🎨 Brand Strategist | Brand building and reputation — positioning, messaging, visual identity, GEO (Generative Engine Optimization), crisis management, brand experience (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/brand_strategist.txt) |
 | 👥 HR / Talent Development | Talent development and performance — recruitment, onboarding, learning, career development, culture, DEI, engagement, retention (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/hr_talent_development.txt) |
 | 💰 Financial Advisor | Comprehensive wealth management — financial planning, investment strategy, risk management, tax optimization, estate planning, behavioral coaching (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/financial_advisor.txt) |
+| 🔍 SEO Specialist | Technical SEO, content strategy, link authority, SERP features — audit templates, keyword research, E-E-A-T, Core Web Vitals, AI search adaptation (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/seo_specialist.txt) |
+
+### Healthcare & Clinical
+
+| Name | Description | Prompt |
+|------|-------------|--------|
+| 🏥 Clinical Assistant | Differential diagnosis generator + SOAP note writer from transcripts/notes — ICD-10/CPT coding, diagnostic workup, HIPAA-compliant (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/clinical_assistant.txt) |
 
 ### Legal & Compliance
 
@@ -274,6 +283,7 @@ Probe LLM systems for vulnerabilities before attackers do.
 | [**garak**](https://github.com/NVIDIA/garak) | ![](https://img.shields.io/github/stars/NVIDIA/garak?style=flat-square) | LLM vulnerability scanner by NVIDIA — red teaming, prompt injection, jailbreak, and leakage detection. |
 | [**OpenAI: Prompt Injection Defense**](https://openai.com/index/designing-agents-to-resist-prompt-injection/) | — | Official OpenAI guide on designing agents to resist prompt injection — browser agents, defense principles (2026). |
 | [**The Promptware Kill Chain**](https://arxiv.org/abs/2601.09625) | — | Bruce Schneier (Harvard/Lawfare): reframes prompt injection as a 7-stage malware kill chain; 21/36 documented attacks already traverse 4+ stages. Featured at Black Hat 2026. | [PDF](papers/Promptware_Kill_Chain_Prompt_Injections_as_Malware.pdf) |
+| [**Microsoft Agent Governance Toolkit**](https://github.com/microsoft/agent-governance-toolkit) | ![](https://img.shields.io/github/stars/microsoft/agent-governance-toolkit?style=flat-square) | 7 packages (Python/Rust/TS/Go/.NET) — policy enforcement (<0.1ms), zero-trust agent identity (Ed25519 + SPIFFE), sandboxed execution; covers all OWASP Agentic Top 10; adapters for LangChain/CrewAI/ADK/OpenAI Agents SDK (Apr 2026) |
 
 ### Eval & Observability
 
@@ -387,6 +397,8 @@ Context engineering is the practice of designing *what* goes into an LLM's conte
 | [**Mastra**](https://github.com/mastra-ai/mastra) | Gatsby team | TypeScript-first AI agent framework — Agent/Workflow/RAG/Evals primitives, 40+ model providers, native MCP server support (YC W25, 2026) ![](https://img.shields.io/github/stars/mastra-ai/mastra?style=flat-square) |
 | [**PraisonAI**](https://github.com/MervinPraison/PraisonAI) | Mervin Praison | Production-ready multi-agent framework — 100+ LLM providers, MCP integration, memory/RAG/guardrails, 24/7 delivery to Telegram/Discord/WhatsApp, fastest agent instantiation (2026) ![](https://img.shields.io/github/stars/MervinPraison/PraisonAI?style=flat-square) |
 | [**Portia AI**](https://github.com/portiaAI) | Portia Labs | Open-source predictable agent framework — 1000+ cloud/MCP tools, built-in auth, auditability and security focus for enterprise workflows (2026) ![](https://img.shields.io/github/stars/portiaAI/portia?style=flat-square) |
+| [**Paperclip**](https://github.com/paperclipai/paperclip) | Paperclip AI | Zero-human-company multi-agent orchestration — org charts, budgets, goal management, CEO→Manager→Worker delegation; 48k stars in 3 weeks (Mar 2026) ![](https://img.shields.io/github/stars/paperclipai/paperclip?style=flat-square) |
+| [**Goose**](https://github.com/block/goose) | Block | Local AI engineering agent — code, debug, install deps, execute, orchestrate workflows; MCP integration (3000+ tools); Apache 2.0; AAIF founding project (2026) ![](https://img.shields.io/github/stars/block/goose?style=flat-square) |
 
 > **Feb 2026 multi-agent wave:** In a two-week window, Claude Code Agent Teams, Windsurf parallel agents (5), Grok Build (8 agents), Codex CLI, and Devin parallel sessions all shipped simultaneously — multi-agent is now the baseline, not a feature.
 
@@ -472,6 +484,8 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | **OpenAI** | [Codex CLI Prompting Guide](https://developers.openai.com/cookbook/examples/gpt-5/codex_prompting_guide) (Feb 2026) | Agentic Coding |
 | **DeepSeek** | [DeepSeek Prompt Library](https://api-docs.deepseek.com/prompt-library) | Prompting |
 | **xAI** | [Grok Code Prompt Engineering Guide](https://docs.x.ai/docs/guides/grok-code-prompt-engineering) (2026) | Agentic Coding |
+| **Meta** | [Llama Prompt Engineering Guide](https://www.llama.com/docs/how-to-guides/prompting/) | Prompting |
+| **Meta** | [Llama 4 Prompt Format](https://www.llama.com/docs/model-cards-and-prompt-formats/llama4/) | Prompting |
 | **Brex** | [Prompt Engineering (production-focused)](https://github.com/brexhq/prompt-engineering) | Engineering |
 
 ---
@@ -547,22 +561,26 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [AdaptOrch: Task-Adaptive Multi-Agent Orchestration (2026)](https://arxiv.org/abs/2602.16873) | Topology selection (parallel/sequential/hierarchical/hybrid) matters more than model choice — AdaptOrch automatically picks the right topology per task; 12–23% improvement over static single-topology baselines across SWE-bench, GPQA, and RAG | [PDF](papers/AdaptOrch_Task_Adaptive_Multi_Agent_Orchestration.pdf) |
 | [The Orchestration of Multi-Agent Systems (2026)](https://arxiv.org/abs/2601.13671) | Systematic academic analysis of MCP and A2A as complementary communication protocols; enterprise-grade multi-agent orchestration architecture covering governance, observability, and organizational adoption patterns | |
 
+### Self-Improving Agents
+
+| Paper | Key Contribution |
+|-------|-----------------|
+| [Hyperagents: Self-Referential Meta-Agents (2026)](https://arxiv.org/abs/2603.19461) | Meta FAIR: task agent and meta agent unified in a single editable program — meta layer can modify itself (recursive self-improvement); validated on code, paper review, robotics, and olympiad math; 2.1k HF likes; open source (facebookresearch/HyperAgents) | [PDF](papers/Hyperagents_Self_Referential_Meta_Agents.pdf) |
+| [EvoSkills: Self-Evolving Agent Skills via Co-Evolutionary Verification (April 2026)](https://arxiv.org/abs/2604.01687) | Skill Generator iteratively refines agent skills while a Surrogate Verifier co-evolves to provide actionable feedback without ground-truth; surpasses human-written skills on SkillsBench in 5 rounds; works on Claude Code and Codex | [PDF](papers/EvoSkills_Self_Evolving_Agent_Skills.pdf) |
+| [OpenClaw-RL: Train Any Agent Simply by Talking (2026)](https://arxiv.org/abs/2603.10165) | Every agent interaction generates a next-state signal (user reply, tool output, GUI state) — OpenClaw-RL recovers all of them as live RL training sources via Hindsight-Guided On-Policy Distillation; one unified policy trains across conversation, terminal, SWE, and GUI tasks simultaneously (145 HF likes) | [PDF](papers/OpenClaw_RL_Train_Any_Agent_Simply_by_Talking.pdf) |
+| [MetaClaw: Just Talk — An Agent That Meta-Learns and Evolves in the Wild (2026)](https://arxiv.org/abs/2603.17187) | Continual meta-learning framework that jointly evolves a base LLM policy and a reusable skill library — skill-driven fast adaptation from failure trajectories + opportunistic gradient updates during idle periods; 21.4% → 40.6% accuracy on benchmarks (134 HF likes) | [PDF](papers/MetaClaw_Agent_Continual_Meta_Learning_Evolves_in_Wild.pdf) |
+
 ### Agent Safety
 
 | Paper | Key Contribution |
 |-------|-----------------|
+| [ClawSafety: "Safe" LLMs, Unsafe Agents (April 2026)](https://arxiv.org/abs/2604.01438) | 120 adversarial scenarios across 5 high-privilege domains (SWE/finance/medical/legal/DevOps), 3 injection channels (skill files, email, web); 40–75% attack success rate; safety depends on model + framework stack, not model alone | [PDF](papers/ClawSafety_Safe_LLMs_Unsafe_Agents.pdf) |
+| [Supply-Chain Poisoning Attacks Against Agent Skill Ecosystems (April 2026)](https://arxiv.org/abs/2604.03081) | DDIPE attack embeds malicious logic in skill documentation code examples; 1,070 adversarial skills across 15 MITRE ATT&CK categories; 11.6–33.5% bypass rate; responsible disclosure led to 4 confirmed vulnerabilities and 2 patches | [PDF](papers/Supply_Chain_Poisoning_Agent_Skill_Ecosystems.pdf) |
 | [BeSafe-Bench: Behavioral Safety Risks of Situated Agents (2026)](https://arxiv.org/abs/2603.25747) | First benchmark across 4 real functional domains (Web, Mobile, Embodied VLM/VLA) with 9 safety-risk categories; even the best agent completes <40% of tasks under full safety constraints | [PDF](papers/BeSafe_Bench_Agent_Behavioral_Safety_Risks.pdf) |
 | [Agents of Chaos (2026)](https://arxiv.org/abs/2602.20021) | Two-week red-team study of live autonomous agents (email, Discord, shell, persistent memory) — documents 11 real attack categories including cross-agent unsafe practice propagation, identity spoofing, unauthorized resource consumption, and false task completion (32 HF likes) | [PDF](papers/Agents_of_Chaos_Red_Teaming_Autonomous_Agents.pdf) |
 | [Internal Safety Collapse in Frontier LLMs (2026)](https://arxiv.org/abs/2603.23509) | Introduces TVD framework and ISC-Bench — frontier models fail at 95.3% rate on dual-use professional tasks where capability and harm co-occur; advanced models are *more* vulnerable than earlier LLMs because their capabilities become liabilities | [PDF](papers/Internal_Safety_Collapse_Frontier_LLMs.pdf) |
 | [Jailbreaking LLMs & VLMs: Mechanisms, Evaluation, and Unified Defense (2026)](https://arxiv.org/abs/2601.03594) | First unified survey spanning both LLM and VLM jailbreak — covers template, in-context, RL, and multimodal attack types; proposes 3-layer defense framework (perception / generation / parameter layers) | [PDF](papers/Jailbreaking_LLMs_VLMs_Unified_Survey.pdf) |
 | [Attack and Defense Landscape of Agentic AI (2026)](https://arxiv.org/abs/2603.11088) | Dawn Song (UC Berkeley) et al. — first complete security survey for agentic AI systems (LLM + external tools/components); establishes threat model covering full attack surface and defense mechanisms; USENIX Security 2026 | [PDF](papers/Attack_Defense_Landscape_Agentic_AI.pdf) |
-
-### Self-Improving Agents
-
-| Paper | Key Contribution |
-|-------|-----------------|
-| [OpenClaw-RL: Train Any Agent Simply by Talking (2026)](https://arxiv.org/abs/2603.10165) | Every agent interaction generates a next-state signal (user reply, tool output, GUI state) — OpenClaw-RL recovers all of them as live RL training sources via Hindsight-Guided On-Policy Distillation; one unified policy trains across conversation, terminal, SWE, and GUI tasks simultaneously (145 HF likes) | [PDF](papers/OpenClaw_RL_Train_Any_Agent_Simply_by_Talking.pdf) |
-| [MetaClaw: Just Talk — An Agent That Meta-Learns and Evolves in the Wild (2026)](https://arxiv.org/abs/2603.17187) | Continual meta-learning framework that jointly evolves a base LLM policy and a reusable skill library — skill-driven fast adaptation from failure trajectories + opportunistic gradient updates during idle periods; 21.4% → 40.6% accuracy on benchmarks (134 HF likes) | [PDF](papers/MetaClaw_Agent_Continual_Meta_Learning_Evolves_in_Wild.pdf) |
 
 ### Tool Use
 
@@ -584,6 +602,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 |-------|-----------------|
 | [Agentic Tool Use in Large Language Models (April 2026)](https://arxiv.org/abs/2604.00835) | Comprehensive framework for understanding tool use in agentic systems — schema understanding, calling conventions, error handling, tool composition patterns |
 | [Open, Reliable, and Collective: A Community-Driven Framework (April 2026)](https://arxiv.org/abs/2604.00137) | OpenTools: standardized tool schemas and lightweight wrappers for plug-and-play use across agent frameworks; intrinsic evaluation suite tracking correctness, robustness, regressions |
+| [The Evolution of Tool Use in LLM Agents (2026)](https://arxiv.org/abs/2603.22862) | Unified survey from single-tool call to multi-tool orchestration — covers reasoning-time planning, training/trajectory construction, safety, resource efficiency, open-environment completeness, and benchmark design (HIT & Harvard) | [PDF](papers/Evolution_of_Tool_Use_LLM_Agents.pdf) |
 
 ### Agent Evaluation
 
