@@ -92,6 +92,7 @@ All prompts are open — click, copy, use directly.
 | 🧪 Test Strategy Architect | Testing architect — risk-based test pyramid, tooling, coverage targets by layer, 4-week implementation roadmap (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/test_strategy_architect.txt) |
 | ⚡ Claude Artifacts | System prompt for generating rich Claude Artifacts (UI, interactive apps, code) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/claude_artifacts_prompt.md) |
 | 💻 Professional Coder | Expert coding assistant — auto programming, project generation, any language | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/%F0%9F%92%BBProfessional%20Coder.md) |
+| 🖥 Frontend Developer | React/Vue/Angular expert — component architecture, Core Web Vitals, WCAG 2.1, responsive design, TypeScript, performance budgets (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/frontend_developer.txt) |
 
 ### DevOps & SRE
 
@@ -100,6 +101,7 @@ All prompts are open — click, copy, use directly.
 | 🚨 Incident Response Commander | Incident commander — SEV1-4 matrix, real-time coordination, blameless post-mortems, SLO/SLI framework, stakeholder comms templates (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/incident_response_commander.md) |
 | 🛡 SRE | Site reliability engineer — SLO/error budget framework, observability three pillars, golden signals, toil reduction, chaos engineering (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/sre.md) |
 | ☁️ Cloud Architect | Senior cloud architect — multi-cloud (AWS/Azure/GCP), Well-Architected Framework, migration 6Rs, FinOps, zero-trust, disaster recovery, IaC (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/cloud_architect.txt) |
+| ⎈ Kubernetes Specialist | K8s operations — cluster architecture, RBAC, network policies, GitOps (ArgoCD/Flux), service mesh (Istio/Linkerd), multi-tenancy, CIS Benchmark, cost optimization (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/kubernetes_specialist.txt) |
 
 ### Data Engineering
 
@@ -113,6 +115,7 @@ All prompts are open — click, copy, use directly.
 | Name | Description | Prompt |
 |------|-------------|--------|
 | 🤖 ML Systems Architect | Production ML design — data pipelines, training, inference, model evaluation, MLOps, monitoring, cost optimization, LLM fine-tuning (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/ml_systems_architect.txt) |
+| 🧬 LLM Architect | LLM systems — fine-tuning (LoRA/QLoRA/RLHF/DPO), RAG architecture, serving (vLLM/TGI), quantization (GPTQ/AWQ), safety guardrails, multi-model orchestration (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/llm_architect.txt) |
 
 ### Product & Strategy
 
@@ -543,12 +546,15 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [FLARE: Why Reasoning Fails to Plan (2026)](https://arxiv.org/abs/2601.22311) | Diagnoses root cause of LLM agent long-horizon planning failures (stepwise reasoning induces greedy policy); FLARE (Future-aware Lookahead + Reward Estimation) lets LLaMA-8B surpass GPT-4o on planning benchmarks | [PDF](papers/FLARE_Why_Reasoning_Fails_to_Plan.pdf) |
 | [Agentic Code Reasoning (March 2026)](https://arxiv.org/abs/2603.01896) | Semi-formal reasoning using structured templates requiring explicit evidence — achieves 87% accuracy on code QA, 9 pp gain over standard agentic reasoning; enables interpretable code understanding for complex reasoning tasks |
 | [Reasoning Shift: How Context Silently Shortens LLM Reasoning (April 2026)](https://arxiv.org/abs/2604.01161) | Contextual changes cause reasoning models to compress traces by up to 50%, reducing self-verification; simple problems unaffected but harder tasks suffer — critical finding for agent multi-turn reasoning | [PDF](papers/Reasoning_Shift_Context_Shortens_LLM_Reasoning.pdf) |
+| [Rethinking Generalization in Reasoning SFT (April 2026)](https://arxiv.org/abs/2604.06628) | Challenges "SFT memorizes, RL generalizes" — reasoning SFT with long CoT does generalize cross-domain, conditional on optimization dynamics; discovers safety-reasoning tradeoff (reasoning improves but safety degrades); 152 HF likes | [PDF](papers/Rethinking_Generalization_Reasoning_SFT.pdf) |
+| [RAGEN-2: Reasoning Collapse in Agentic RL (April 2026)](https://arxiv.org/abs/2604.06268) | Identifies "template collapse" in agentic RL — models rely on fixed input-agnostic templates despite stable entropy; proposes mutual information (not entropy) as diagnostic for reasoning quality; Northwestern/Stanford/Microsoft; 49 HF likes | [PDF](papers/RAGEN2_Reasoning_Collapse_Agentic_RL.pdf) |
 
 ### Surveys
 
 | Paper | Key Contribution |
 |-------|-----------------|
 | [Survey of Automatic Prompt Engineering (2025)](https://arxiv.org/abs/2502.11560) | Full overview of discrete / continuous / hybrid prompt optimization |
+| [Externalization in LLM Agents: Memory, Skills, Protocols, Harness (April 2026)](https://arxiv.org/abs/2604.08224) | Comprehensive survey unifying memory, skills, protocols, and harness engineering as four forms of "cognitive externalization" — traces progression from weights → context → harness using cognitive artifact theory; Shanghai Jiao Tong / UCL | [PDF](papers/Externalization_LLM_Agents_Unified_Review.pdf) |
 | [Beyond the Parameters: ICL to Causal RAG (April 2026)](https://arxiv.org/abs/2604.03174) | Comprehensive survey treating context enrichment as a continuum — from in-context learning through RAG, GraphRAG, to CausalRAG; includes claim-audit framework and cross-paper evidence synthesis | [PDF](papers/Beyond_Parameters_ICL_to_RAG_Survey.pdf) |
 
 ### RAG & Knowledge
@@ -589,6 +595,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [OpenClaw-RL: Train Any Agent Simply by Talking (2026)](https://arxiv.org/abs/2603.10165) | Every agent interaction generates a next-state signal (user reply, tool output, GUI state) — OpenClaw-RL recovers all of them as live RL training sources via Hindsight-Guided On-Policy Distillation; one unified policy trains across conversation, terminal, SWE, and GUI tasks simultaneously (145 HF likes) | [PDF](papers/OpenClaw_RL_Train_Any_Agent_Simply_by_Talking.pdf) |
 | [MetaClaw: Just Talk — An Agent That Meta-Learns and Evolves in the Wild (2026)](https://arxiv.org/abs/2603.17187) | Continual meta-learning framework that jointly evolves a base LLM policy and a reusable skill library — skill-driven fast adaptation from failure trajectories + opportunistic gradient updates during idle periods; 21.4% → 40.6% accuracy on benchmarks (134 HF likes) | [PDF](papers/MetaClaw_Agent_Continual_Meta_Learning_Evolves_in_Wild.pdf) |
 | [CORAL: Autonomous Multi-Agent Evolution for Open-Ended Discovery (April 2026)](https://arxiv.org/abs/2604.01658) | Framework enabling autonomous multi-agent evolution via persistent memory, asynchronous execution, and collaborative exploration — 3–10x higher improvement rates with fewer evaluations than evolutionary baselines; 251 HF likes | [PDF](papers/CORAL_Autonomous_Multi_Agent_Evolution.pdf) |
+| [SkillClaw: Collective Skill Evolution with Agentic Evolver (April 2026)](https://arxiv.org/abs/2604.08377) | Cross-user trajectories continuously aggregated and refined by autonomous evolver into shared skill repository — collective skill evolution in multi-user agent ecosystems; 142 HF likes | [PDF](papers/SkillClaw_Collective_Skill_Evolution.pdf) |
 | [SKILL0: In-Context Agentic RL for Skill Internalization (April 2026)](https://arxiv.org/abs/2604.02268) | Progressively withdraws skill documentation during training until agents operate zero-shot — +9.7% on ALFWorld, +6.6% on Search-QA with <0.5k tokens per step; 133 HF likes | [PDF](papers/SKILL0_In_Context_Agentic_RL_Skill_Internalization.pdf) |
 
 ### Agent Safety
@@ -619,6 +626,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [CCTU: Tool Use under Complex Constraints (2026)](https://arxiv.org/abs/2603.15309) | 200-task benchmark across 12 constraint categories (resource, behavior, toolset, response) with step-level validation; no model exceeds 20% completion; models violate constraints in >50% of cases with limited self-correction | [PDF](papers/CCTU_Tool_Use_Complex_Constraints_Benchmark.pdf) |
 | [Agentic Tool Use in Large Language Models (April 2026)](https://arxiv.org/abs/2604.00835) | Comprehensive framework for understanding tool use in agentic systems — schema understanding, calling conventions, error handling, tool composition patterns |
 | [Open, Reliable, and Collective: A Community-Driven Framework (April 2026)](https://arxiv.org/abs/2604.00137) | OpenTools: standardized tool schemas and lightweight wrappers for plug-and-play use across agent frameworks; intrinsic evaluation suite tracking correctness, robustness, regressions |
+| [Act Wisely: Meta-Cognitive Tool Use in Agentic Multimodal Models (April 2026)](https://arxiv.org/abs/2604.08545) | Alibaba: addresses meta-cognitive deficit where agents blindly invoke tools — HDPO framework reduces unnecessary tool invocations from 98% to 2% while increasing reasoning accuracy; first paper on "when NOT to use tools" | [PDF](papers/Act_Wisely_Meta_Cognitive_Tool_Use.pdf) |
 | [The Evolution of Tool Use in LLM Agents (2026)](https://arxiv.org/abs/2603.22862) | Unified survey from single-tool call to multi-tool orchestration — covers reasoning-time planning, training/trajectory construction, safety, resource efficiency, open-environment completeness, and benchmark design (HIT & Harvard) | [PDF](papers/Evolution_of_Tool_Use_LLM_Agents.pdf) |
 
 ### Agent Evaluation
