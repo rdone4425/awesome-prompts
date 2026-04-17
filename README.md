@@ -102,6 +102,7 @@ All prompts are open — click, copy, use directly.
 | 🧪 Test Strategy Architect | Testing architect — risk-based test pyramid, tooling, coverage targets by layer, 4-week implementation roadmap (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/test_strategy_architect.txt) |
 | ⚡ Claude Artifacts | System prompt for generating rich Claude Artifacts (UI, interactive apps, code) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/claude_artifacts_prompt.md) |
 | 💻 Professional Coder | Expert coding assistant — auto programming, project generation, any language | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/%F0%9F%92%BBProfessional%20Coder.md) |
+| 🎨 Generative UI Architect | Component-first, design-system-native UI generation — states, tokens, accessibility, responsive layouts, typed code output (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/generative_ui_architect.txt) |
 | 🖥 Frontend Developer | React/Vue/Angular expert — component architecture, Core Web Vitals, WCAG 2.1, responsive design, TypeScript, performance budgets (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/frontend_developer.txt) |
 | 📲 Mobile App Builder | Native iOS (Swift/SwiftUI) + Android (Kotlin/Jetpack Compose) + cross-platform (React Native/Flutter) — offline-first, biometric auth, push notifications, app store deployment (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/mobile_app_builder.txt) |
 | ⛓️ Solidity Smart Contract Engineer | Security-first Solidity — checks-effects-interactions, ERC-20/721/1155, UUPS/diamond proxies, DeFi primitives, gas optimization, Foundry fuzz/invariant testing, L2 deployment (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/solidity_smart_contract_engineer.txt) |
@@ -201,6 +202,7 @@ All prompts are open — click, copy, use directly.
 | 📈 Data Analyst | Senior analyst translating data into insights — SQL, A/B testing, cohort analysis, metrics, visualization, statistical rigor, actionable recommendations (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/data_analyst.txt) |
 | 🧠 Reasoning Specialist | Structured thinking for complex problems — problem decomposition, CoT reasoning, hypothesis generation, multi-path exploration, confidence assessment (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/reasoning_specialist.txt) |
 | 🎨 Multimodal Analyst | Vision-text-data integration — image analysis, document processing, chart interpretation, scene understanding, cross-modal reasoning (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/multimodal_analyst.txt) |
+| 🌐 Autonomous Web Agent | Long-horizon web research agent — search, browse, extract, verify, synthesize; tool discipline, confirmation gates, prompt-injection resistance (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/autonomous_web_agent.txt) |
 | 🗂 Structured Output Extractor | Schema-strict JSON extraction — type safety, null handling, multi-record, self-validation (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/structured_output_extractor.txt) |
 | 📈 Investment Research Analyst | Senior equity analyst — business model assessment, financial health, competitive moat, valuation (DCF/comps), bull/bear thesis (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/investment_research_analyst.txt) |
 | 🗺 Market Research Strategist | Market research director — market sizing (bottom-up + top-down), segmentation, competitive map, white-space opportunities, GTM recommendations (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/market_research_strategist.txt) |
@@ -243,6 +245,7 @@ All prompts are open — click, copy, use directly.
 | 🛡 Trustworthy Agent Reviewer | Prompt for reviewing agent systems across control, ambiguity handling, security, transparency, and privacy — based on Anthropic's 2026 trustworthy-agent guidance | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/trustworthy_agent_reviewer.txt) |
 | 🔬 Prompt Engineer | Production prompt engineering — design patterns (CoT/ToT/ReAct), A/B testing, token optimization, multi-model routing, versioning, regression testing (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/prompt_engineer.txt) |
 | 🔌 MCP Server Architect | Prompt for designing secure, interoperable Model Context Protocol servers — flat schemas, error contracts, transport guidance, testing strategy (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/mcp_server_architect.txt) |
+| 🧬 Skill Self-Evolution Designer | Agent-designing-agent prompt for creating reusable, self-evaluating skills — Read-Execute-Reflect-Write loop, SKILL.md scaffolding, versioned skill libraries (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/skill_self_evolution_designer.txt) |
 
 ### Image & Video Generation
 
@@ -613,6 +616,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [A-RAG: Agentic RAG via Hierarchical Retrieval (2026)](https://arxiv.org/abs/2602.03442) | Hierarchical retrieval interfaces enabling agents to dynamically navigate multi-level knowledge structures | [PDF](papers/A_RAG_Agentic_Retrieval_Augmented_Generation.pdf) |
 | [Procedural Knowledge at Scale Improves Reasoning (April 2026)](https://arxiv.org/abs/2604.01348) | Meta AI: RAG for reasoning — decomposes trajectories into 32M reusable subquestion-subroutine pairs; retrieves procedural "how-to" knowledge within reasoning traces; +19.2% across math/science/coding | [PDF](papers/Procedural_Knowledge_Reasoning_Memory.pdf) |
 | [SoK: Agentic RAG — Taxonomy, Architectures, Evaluation (2026)](https://arxiv.org/abs/2603.07379) | First Systematization of Knowledge for Agentic RAG — formalizes retrieval-generation loops as finite-horizon POMDPs; multi-dimensional taxonomy covering planning strategies, retrieval orchestration, memory paradigms, and tool coordination | [PDF](papers/SoK_Agentic_RAG.pdf) |
+| [LMM-Searcher: Long-horizon Agentic Multimodal Search (April 2026)](https://arxiv.org/abs/2604.12890) | RUC: file-based visual context management + progressive on-demand image loading — scales to 100-turn search horizons, SOTA on MM-BrowseComp and MMSearch-Plus | [PDF](papers/LMM_Searcher_Long_Horizon_Agentic_Multimodal_Search.pdf) |
 
 ### Agent Reliability
 
@@ -645,6 +649,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [CORAL: Autonomous Multi-Agent Evolution for Open-Ended Discovery (April 2026)](https://arxiv.org/abs/2604.01658) | Framework enabling autonomous multi-agent evolution via persistent memory, asynchronous execution, and collaborative exploration — 3–10x higher improvement rates with fewer evaluations than evolutionary baselines; 251 HF likes | [PDF](papers/CORAL_Autonomous_Multi_Agent_Evolution.pdf) |
 | [SkillClaw: Collective Skill Evolution with Agentic Evolver (April 2026)](https://arxiv.org/abs/2604.08377) | Cross-user trajectories continuously aggregated and refined by autonomous evolver into shared skill repository — collective skill evolution in multi-user agent ecosystems; 142 HF likes | [PDF](papers/SkillClaw_Collective_Skill_Evolution.pdf) |
 | [SKILL0: In-Context Agentic RL for Skill Internalization (April 2026)](https://arxiv.org/abs/2604.02268) | Progressively withdraws skill documentation during training until agents operate zero-shot — +9.7% on ALFWorld, +6.6% on Search-QA with <0.5k tokens per step; 133 HF likes | [PDF](papers/SKILL0_In_Context_Agentic_RL_Skill_Internalization.pdf) |
+| [Memento-Skills: Let Agents Design Agents (2026)](https://arxiv.org/abs/2603.18743) | Read-Write Reflective Learning over executable skill libraries — agents retrieve, execute, reflect, and rewrite their own skills without retraining the base model; evaluated on HLE and GAIA | [PDF](papers/Memento_Skills_Let_Agents_Design_Agents.pdf) |
 
 ### Agent Safety
 
@@ -711,6 +716,12 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 |-------|-----------------|
 | [Graph-of-Mark: Spatial Reasoning via Visual Prompting (2026)](https://arxiv.org/abs/2603.06663) | Overlays scene graphs onto input images at the pixel level to model object relationships — up to +11 percentage points on VQA and localization across 4 datasets, zero-shot | [PDF](papers/Graph_of_Mark_Spatial_Reasoning_Multimodal_Visual_Prompting.pdf) |
 | [Look Twice: Training-Free Evidence Highlighting in MLLMs (April 2026)](https://arxiv.org/abs/2604.01280) | Inference-time framework exploiting MLLM attention patterns to identify relevant visual regions and text, then re-conditions generation on highlighted evidence — consistent VQA improvements, no training required | [PDF](papers/Look_Twice_Training_Free_Evidence_Highlighting_MLLMs.pdf) |
+
+### Embodied AI & World Models
+
+| Paper | Key Contribution |
+|-------|-----------------|
+| [VLA-World: Vision-Language-Action World Models for Autonomous Driving (April 2026)](https://arxiv.org/abs/2604.09059) | Unifies predictive imagination with reflective reasoning for driving foresight — action-derived trajectory guides next-frame generation, then reasons over the imagined frame to refine planning | [PDF](papers/VLA_World_Vision_Language_Action_World_Models.pdf) |
 
 **Curated reading list:** [The 2025 AI Engineering Reading List — Latent Space](https://www.latent.space/p/2025-papers)
 
