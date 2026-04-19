@@ -175,6 +175,7 @@ All prompts are open — click, copy, use directly.
 |------|-------------|--------|
 | ⚖️ Legal Analyst | Comprehensive legal research and contract analysis — IRAC methodology, regulatory compliance, litigation risk, IP strategy, M&A due diligence (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/legal_analyst.txt) |
 | 🔒 Compliance Auditor | SOC 2, ISO 27001, HIPAA, PCI-DSS — gap assessment, evidence collection automation, policy templates, audit preparation, continuous compliance (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/compliance_auditor.txt) |
+| 📋 Regulatory Affairs Specialist | Global regulatory strategy — FDA/EMA/NMPA pathways, QMS design, submission preparation, gap analysis, post-market surveillance, AI/ML compliance (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Regulatory_Affairs_Specialist.txt) |
 
 ### Knowledge & Documentation
 
@@ -182,6 +183,7 @@ All prompts are open — click, copy, use directly.
 |------|-------------|--------|
 | 📚 Knowledge Management Architect | Enterprise knowledge systems — information architecture, documentation standards, AI-powered search, RAG, discoverability, governance, maintenance (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/knowledge_management_architect.txt) |
 | 📝 Technical Documentation Strategist | Comprehensive docs strategy — docs-as-code, AI-assisted writing, information architecture, developer experience, quality assurance, knowledge management integration (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Technical_Documentation_Strategist.txt) |
+| 🧠 Personal Knowledge Assistant | PKM system design — Zettelkasten, BASB, spaced repetition, AI reading assistants, semantic note-taking, knowledge synthesis, creativity pipelines (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Personal_Knowledge_Assistant.txt) |
 
 ### Writing & Academic
 
@@ -221,6 +223,7 @@ All prompts are open — click, copy, use directly.
 |------|-------------|--------|
 | ✅ GTD Productivity Assistant | Full GTD system — capture, clarify, organize, reflect, weekly review; implicit task detection (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/productivity_assistant_gtd.txt) |
 | 🎧 Customer Support Agent | Empathetic SaaS support agent — single-interaction resolution, tone calibration, escalation rules, no spin (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/customer_support_agent.txt) |
+| 🎯 Deep Work Facilitator | Sustained focus system design — attention audit, time blocking, flow state engineering, digital environment design, cognitive load management, team protocols (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Deep_Work_Facilitator.txt) |
 
 ### Safety & Compliance
 
@@ -736,6 +739,9 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 |-------|-----------------|
 | [MOSAIC: Granular Instruction Following Evaluation (2026)](https://arxiv.org/abs/2601.18554) | Modular benchmark with up to 20 application-oriented generation constraints per prompt; finds compliance degrades with constraint count and position (primacy/recency bias) — exposes multi-instruction conflict effects | [PDF](papers/MOSAIC_Instruction_Following_Granular_Evaluation.pdf) |
 | [Rubrics to Tokens: Token-Level Rewards for Instruction Following (April 2026)](https://arxiv.org/abs/2604.02795) | Rubric-based RL with Token-Level Relevance Discriminator — solves credit assignment for instruction following by predicting which tokens satisfy specific constraints; fine-grained optimization | [PDF](papers/Rubrics_to_Tokens_Instruction_Following.pdf) |
+| [Schema Key Wording as an Instruction Channel in Structured Generation (April 2026)](https://arxiv.org/abs/2604.14862) | Discovers that schema key wording itself acts as an implicit instruction signal under constrained decoding — changing JSON key names alters model behavior even when semantic content is identical | [PDF](papers/Schema_Key_Wording_Structured_Generation.pdf) |
+| [One Token Away from Collapse: Fragility of Instruction-Tuned Helpfulness (April 2026)](https://arxiv.org/abs/2604.13006) | Trivial lexical constraints (banning one punctuation mark) cause 14–48% response collapse in instruction-tuned LLMs — identified as planning failure via mechanistic analysis; base models show no collapse | [PDF](papers/One_Token_Away_Instruction_Collapse.pdf) |
+| [Enforcing Hierarchical Instruction-Following via Neuro-Symbolic Alignment (April 2026)](https://arxiv.org/abs/2604.09075) | NSHA: formulates hierarchical instruction resolution as constraint satisfaction, solved with SAT solver-guided inference-time reasoning — resolves conflicts between system prompts, user instructions, and tool outputs | [PDF](papers/Hierarchical_Instruction_Following_LLM.pdf) |
 
 ### Multimodal Prompting
 
