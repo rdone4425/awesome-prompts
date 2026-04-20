@@ -133,6 +133,7 @@ All prompts are open — click, copy, use directly.
 | 🧬 LLM Architect | LLM systems — fine-tuning (LoRA/QLoRA/RLHF/DPO), RAG architecture, serving (vLLM/TGI), quantization (GPTQ/AWQ), safety guardrails, multi-model orchestration (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/llm_architect.txt) |
 | 🎙 Realtime Voice Agent Architect | Enterprise voice agent design — sub-1s TTFA, streaming STT→LLM→TTS, turn-taking, barge-in handling, voice-optimized prompts, confirmation gates (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/realtime_voice_agent_architect.txt) |
 | 🎨 Multimodal Agent Designer | Cross-modal agent architecture — active perception, visual/audio grounding, token-efficient context management, modality-aware tool design, GUI automation (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/multimodal_agent_designer.txt) |
+| ⚖️ AI Ethics Reviewer | Algorithmic ethics audit — fairness & bias, transparency, privacy, safety, accountability, societal impact, cross-cultural considerations, mitigation roadmap (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/AI_Ethics_Reviewer.txt) |
 
 ### Product & Strategy
 
@@ -161,6 +162,7 @@ All prompts are open — click, copy, use directly.
 |------|-------------|--------|
 | 🏃 Scrum Master | Certified Scrum Master — sprint ceremonies, impediment removal, team coaching, velocity tracking, retrospectives, scaling (SAFe/LeSS/Nexus) (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/scrum_master.txt) |
 | 🚨 Project Recovery Specialist | Crisis project turnaround — root cause diagnosis, stakeholder realignment, scope reclamation, team rehabilitation, 30-60-90 day recovery plans (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Project_Recovery_Specialist.txt) |
+| 🔄 Agile Transformation Lead | Enterprise agile transformation — operating model design, framework selection, product management integration, flow optimization, change management, technical practices (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Agile_Transformation_Lead.txt) |
 
 ### Healthcare & Clinical
 
@@ -291,6 +293,7 @@ All prompts are open — click, copy, use directly.
 |------|-------------|--------|
 | 📄 PDF Translator | Translates PDF documents page by page, or plain text — multi-language | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/pdf_translator.txt) |
 | 🌍 Localization & Globalization Strategist | Global market expansion — i18n architecture, AI translation pipelines, cultural adaptation, regulatory compliance, transcreation, continuous localization (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Localization_Globalization_Strategist.txt) |
+| 🌐 Cross-Cultural Communication Designer | Global communication strategy — cultural dimension mapping, tone adaptation, visual symbolism, behavioral UX, cross-cultural team protocols, AI content cultural review (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Cross_Cultural_Communication_Designer.txt) |
 
 ### Legacy (2023 era — kept for reference)
 
@@ -646,6 +649,8 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [Towards a Science of AI Agent Reliability (2026)](https://arxiv.org/abs/2602.16666) | 12 concrete reliability metrics across consistency, robustness, predictability, safety — capability gains ≠ reliability gains | [PDF](papers/Towards_Science_of_AI_Agent_Reliability.pdf) |
 | [Agentic Reasoning for LLMs (2026)](https://arxiv.org/abs/2601.12538) | Comprehensive survey: 3-layer framework (single-agent capabilities → self-evolving agents → multi-agent coordination); 202 Hugging Face likes | [PDF](papers/Agentic_Reasoning_for_Large_Language_Models.pdf) |
 | [Why Do Web Agents Fail? A Hierarchical Planning Perspective (2026)](https://arxiv.org/abs/2603.14248) | Decomposes web agent behavior into high-level planning, low-level grounding, and replanning — PDDL-structured plans outperform NL plans but grounding remains the dominant bottleneck; a single round of exploratory replanning substantially improves task success | [PDF](papers/Web_Agents_Hierarchical_Planning.pdf) |
+| [Claw-Eval: Trustworthy Evaluation of Autonomous Agents (April 2026)](https://arxiv.org/abs/2604.06132) | End-to-end evaluation suite with 300 human-verified tasks across 9 categories — trajectory-aware grading over 2,159 rubric items; finds vanilla LLM judges miss 44% of safety violations and 13% of robustness failures | [PDF](papers/ClawEval_Trustworthy_Evaluation_Agents.pdf) |
+| [TimeSeek: Temporal Reliability of Agentic Forecasters (April 2026)](https://arxiv.org/abs/2604.04220) | Benchmark built from 150 regulated prediction markets evaluated at 5 lifecycle checkpoints — models are most competitive early and on high-uncertainty markets; search improves pooled accuracy but degrades 12% of conditions | [PDF](papers/TimeSeek_Temporal_Reliability_Forecasters.pdf) |
 
 ### Multi-Agent Coordination
 
@@ -755,6 +760,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [Look Twice: Training-Free Evidence Highlighting in MLLMs (April 2026)](https://arxiv.org/abs/2604.01280) | Inference-time framework exploiting MLLM attention patterns to identify relevant visual regions and text, then re-conditions generation on highlighted evidence — consistent VQA improvements, no training required | [PDF](papers/Look_Twice_Training_Free_Evidence_Highlighting_MLLMs.pdf) |
 | [Agentic-MME: What Agentic Capability Really Brings to Multimodal Intelligence? (April 2026)](https://arxiv.org/abs/2604.03016) | Systematic evaluation of agentic capability in multimodal LLMs — decomposes tasks into perception, reasoning, and action levels; reveals where agentic loops help vs. where they add overhead | [PDF](papers/Agentic_MME_Multimodal_Intelligence.pdf) |
 | [FeynmanBench: Diagrammatic Physics Reasoning for MLLMs (April 2026)](https://arxiv.org/abs/2604.03893) | First benchmark for Feynman diagram tasks — evaluates multistep diagrammatic reasoning requiring conservation laws, symmetry constraints, and graph topology; 2000+ tasks across Standard Model interactions | [PDF](papers/FeynmanBench_Multimodal_Physics_Reasoning.pdf) |
+| [MERRIN: Multimodal Evidence Retrieval in Noisy Web Environments (April 2026)](https://arxiv.org/abs/2604.13418) | Benchmark for multimodal evidence retrieval and multi-hop reasoning over noisy web content — even strongest agent (Gemini-3.1-Pro) achieves only 40.1%; finds more search ≠ better performance | [PDF](papers/MERRIN_Multimodal_Evidence_Retrieval_Web.pdf) |
 
 ### Embodied AI & World Models
 
