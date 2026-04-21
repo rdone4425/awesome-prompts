@@ -164,6 +164,7 @@ All prompts are open — click, copy, use directly.
 | 🏃 Scrum Master | Certified Scrum Master — sprint ceremonies, impediment removal, team coaching, velocity tracking, retrospectives, scaling (SAFe/LeSS/Nexus) (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/scrum_master.txt) |
 | 🚨 Project Recovery Specialist | Crisis project turnaround — root cause diagnosis, stakeholder realignment, scope reclamation, team rehabilitation, 30-60-90 day recovery plans (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Project_Recovery_Specialist.txt) |
 | 🔄 Agile Transformation Lead | Enterprise agile transformation — operating model design, framework selection, product management integration, flow optimization, change management, technical practices (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Agile_Transformation_Lead.txt) |
+| 📋 Technical Program Manager | Complex cross-functional program delivery — dependency modeling, critical path analysis, risk management, stakeholder alignment, resource planning, AI-augmented workflows (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Technical_Program_Manager.txt) |
 
 ### Healthcare & Clinical
 
@@ -172,6 +173,7 @@ All prompts are open — click, copy, use directly.
 | 🏥 Clinical Assistant | Differential diagnosis generator + SOAP note writer from transcripts/notes — ICD-10/CPT coding, diagnostic workup, HIPAA-compliant (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/clinical_assistant.txt) |
 | 🏥 Healthcare AI Architect | Clinical AI system design — safety-first architecture, multi-agent clinical reasoning, evidence stratification, uncertainty communication, HIPAA/FDA compliance, MR-Bench evaluation (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/healthcare_ai_architect.txt) |
 | 🔬 Clinical Research Coordinator | Clinical trial operations — GCP compliance, protocol design, site management, patient recruitment, safety reporting, decentralized trials, data integrity (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Clinical_Research_Coordinator.txt) |
+| 🏥 Health Informatics Specialist | Digital health system design — EHR integration, FHIR interoperability, clinical decision support, health data architecture, regulatory compliance (HIPAA/FDA), AI in healthcare (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Health_Informatics_Specialist.txt) |
 
 ### Legal & Compliance
 
@@ -281,6 +283,7 @@ All prompts are open — click, copy, use directly.
 | 🧛 Vampire: The Masquerade | Deep lore expert for Vampire: The Masquerade tabletop RPG | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Vampire%20The%20Masquerade%20Lore%20Expert.md) |
 | 💘 Beauty D&D | Text adventure romance simulator with DALL-E image generation (Chinese) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Beauty_DND.txt) |
 | 🎭 Immersive Narrative Designer | Interactive story & worldbuilding — branching narratives, AI co-authorship, character psychology, emergent storytelling, VR/transmedia integration (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Immersive_Narrative_Designer.txt) |
+| ✍️ Creative Writing Coach | Master storytelling mentorship — narrative structure, character development, world-building, voice & style, revision craft, genre conventions, AI-assisted creativity with human voice preservation (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Creative_Writing_Coach.txt) |
 
 ### Game Development
 
@@ -696,6 +699,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [Architecting Secure AI Agents: System-Level Defenses Against Indirect Prompt Injection (March 2026)](https://arxiv.org/abs/2603.30016) | Greshake/Xiao/Suh et al. — security architecture paper arguing prompt injection must be handled at the system layer (permissioning, provenance, policy isolation), not by model alignment alone | [PDF](papers/Architecting_Secure_AI_Agents_Indirect_Prompt_Injection.pdf) |
 | [Parallax: Why AI Agents That Think Must Never Act (April 2026)](https://arxiv.org/abs/2604.12986) | Argues that prompt-based safety is architecturally insufficient for agents with execution capability; introduces Parallax, a plan-then-execute separation architecture with formal safety guarantees | [PDF](papers/Parallax_Why_AI_Agents_That_Think_Must_Never_Act.pdf) |
 | [Safety, Security, and Cognitive Risks in World Models (2026)](https://arxiv.org/abs/2604.01346) | Comprehensive threat model for world-model-equipped agents — adversarial attacks, goal misgeneralisation, deceptive alignment, automation bias; extends MITRE ATLAS and OWASP to world model stack | [PDF](papers/Safety_Security_Cognitive_Risks_World_Models.pdf) |
+| [Self-Propagating Attacks Across LLM Agent Ecosystems (March 2026)](https://arxiv.org/abs/2603.15727) | Demonstrates how attacks can autonomously propagate across interconnected LLM agents — worm-like self-spreading malware targeting agent ecosystems via MCP, tool chains, and shared memory | [PDF](papers/Self_Propagating_Attacks_Agent_Ecosystems.pdf) |
 
 ### Medical & Health AI
 
@@ -705,6 +709,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [VeriSim: Evaluating Medical AI Under Realistic Patient Noise (April 2026)](https://arxiv.org/abs/2604.10441) | Truth-preserving patient simulation framework injecting controllable, clinically evidence-grounded noise — evaluates medical AI robustness under realistic imperfect patient data conditions | [PDF](papers/VeriSim_Medical_AI_Realistic_Patient_Noise.pdf) |
 | [Med-CAM: Minimal Evidence for Explaining Medical Decision Making (April 2026)](https://arxiv.org/abs/2604.13695) | Minimal evidence extraction for medical AI explanations — identifies the smallest subset of input features sufficient for model decisions, improving interpretability without performance loss | [PDF](papers/MedCAM_Medical_Decision_Explanation.pdf) |
 | [ProMedical: Hierarchical Fine-Grained Criteria Modeling for Medical LLM Alignment (April 2026)](https://arxiv.org/abs/2604.07487) | Hierarchical fine-grained criteria modeling for medical LLM alignment — structured clinical evaluation rubrics with multi-level criteria decomposition for improved medical reasoning and safety | [PDF](papers/ProMedical_Medical_LLM_Alignment.pdf) |
+| [Can Large Language Models Self-Correct in Medical Question Answering? (April 2026)](https://arxiv.org/abs/2604.00261) | Exploratory study of LLM self-correction in medical QA — finds reflection can both correct and introduce errors; analyzes error correction dynamics across multiple reflection steps on MedQA, HeadQA, PubMedQA | [PDF](papers/LLM_Self_Correct_Medical_QA.pdf) |
 
 ### Context & Memory
 
@@ -756,6 +761,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [Schema Key Wording as an Instruction Channel in Structured Generation (April 2026)](https://arxiv.org/abs/2604.14862) | Discovers that schema key wording itself acts as an implicit instruction signal under constrained decoding — changing JSON key names alters model behavior even when semantic content is identical | [PDF](papers/Schema_Key_Wording_Structured_Generation.pdf) |
 | [One Token Away from Collapse: Fragility of Instruction-Tuned Helpfulness (April 2026)](https://arxiv.org/abs/2604.13006) | Trivial lexical constraints (banning one punctuation mark) cause 14–48% response collapse in instruction-tuned LLMs — identified as planning failure via mechanistic analysis; base models show no collapse | [PDF](papers/One_Token_Away_Instruction_Collapse.pdf) |
 | [Enforcing Hierarchical Instruction-Following via Neuro-Symbolic Alignment (April 2026)](https://arxiv.org/abs/2604.09075) | NSHA: formulates hierarchical instruction resolution as constraint satisfaction, solved with SAT solver-guided inference-time reasoning — resolves conflicts between system prompts, user instructions, and tool outputs | [PDF](papers/Hierarchical_Instruction_Following_LLM.pdf) |
+| [DEFT: Distribution-guided Efficient Fine-Tuning for Human Alignment (April 2026)](https://arxiv.org/abs/2604.01787) | Distribution-guided efficient fine-tuning for alignment — uses data distribution properties to guide selective parameter updates, improving alignment quality with reduced compute | [PDF](papers/DEFT_Distribution_Efficient_Fine_Tuning.pdf) |
 
 ### Multimodal Prompting
 
