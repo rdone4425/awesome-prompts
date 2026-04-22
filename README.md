@@ -135,6 +135,7 @@ All prompts are open — click, copy, use directly.
 | 🎙 Realtime Voice Agent Architect | Enterprise voice agent design — sub-1s TTFA, streaming STT→LLM→TTS, turn-taking, barge-in handling, voice-optimized prompts, confirmation gates (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/realtime_voice_agent_architect.txt) |
 | 🎨 Multimodal Agent Designer | Cross-modal agent architecture — active perception, visual/audio grounding, token-efficient context management, modality-aware tool design, GUI automation (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/multimodal_agent_designer.txt) |
 | ⚖️ AI Ethics Reviewer | Algorithmic ethics audit — fairness & bias, transparency, privacy, safety, accountability, societal impact, cross-cultural considerations, mitigation roadmap (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/AI_Ethics_Reviewer.txt) |
+| 🤖 MLOps Engineer | ML operations platform — feature stores, model registries, training pipelines, serving infrastructure, drift monitoring, experiment tracking, GPU optimization, LLM deployment (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/MLOps_Engineer.txt) |
 
 ### Product & Strategy
 
@@ -234,6 +235,7 @@ All prompts are open — click, copy, use directly.
 | ✅ GTD Productivity Assistant | Full GTD system — capture, clarify, organize, reflect, weekly review; implicit task detection (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/productivity_assistant_gtd.txt) |
 | 🎧 Customer Support Agent | Empathetic SaaS support agent — single-interaction resolution, tone calibration, escalation rules, no spin (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/customer_support_agent.txt) |
 | 🎯 Deep Work Facilitator | Sustained focus system design — attention audit, time blocking, flow state engineering, digital environment design, cognitive load management, team protocols (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Deep_Work_Facilitator.txt) |
+| 📅 Executive Operations Partner | C-suite support operations — calendar stewardship, strategic prioritization, communication management, meeting excellence, travel logistics, board coordination, AI-augmented executive enablement (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Executive_Operations_Partner.txt) |
 
 ### Safety & Compliance
 
@@ -303,6 +305,7 @@ All prompts are open — click, copy, use directly.
 | 📄 PDF Translator | Translates PDF documents page by page, or plain text — multi-language | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/pdf_translator.txt) |
 | 🌍 Localization & Globalization Strategist | Global market expansion — i18n architecture, AI translation pipelines, cultural adaptation, regulatory compliance, transcreation, continuous localization (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Localization_Globalization_Strategist.txt) |
 | 🌐 Cross-Cultural Communication Designer | Global communication strategy — cultural dimension mapping, tone adaptation, visual symbolism, behavioral UX, cross-cultural team protocols, AI content cultural review (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Cross_Cultural_Communication_Designer.txt) |
+| 🔄 Technical Translator & Localizer | Technical localization engineering — i18n architecture, translation management, continuous localization, transcreation, terminology management, cultural adaptation, AI-assisted translation workflows (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Technical_Translator_Localizer.txt) |
 
 ### Legacy (2023 era — kept for reference)
 
@@ -596,6 +599,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [Self-Consistency (2022)](https://arxiv.org/abs/2203.11171) | Multi-path sampling + majority vote: GSM8K 57% → 74% |
 | [ReAct (2023)](https://arxiv.org/abs/2210.03629) | Reasoning + Acting interleaved — foundation of agent prompt design |
 | [APE: Human-Level Prompt Engineers (2023)](https://arxiv.org/abs/2211.01910) | LLM auto-generates and selects instructions — beats human prompts |
+| [A Prompt Engineering Universal Approximation Theorem (2026)](https://arxiv.org/abs/2601.15014) | Formalizes prompt engineering as expressivity problem — proves a fixed Transformer backbone can approximate any continuous function by varying only the prompt; decomposes switching into routing/arithmetic/composition | [PDF](papers/Prompt_Engineering_UAT.pdf) |
 
 ### Automatic Optimization
 
@@ -714,6 +718,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [Med-CAM: Minimal Evidence for Explaining Medical Decision Making (April 2026)](https://arxiv.org/abs/2604.13695) | Minimal evidence extraction for medical AI explanations — identifies the smallest subset of input features sufficient for model decisions, improving interpretability without performance loss | [PDF](papers/MedCAM_Medical_Decision_Explanation.pdf) |
 | [ProMedical: Hierarchical Fine-Grained Criteria Modeling for Medical LLM Alignment (April 2026)](https://arxiv.org/abs/2604.07487) | Hierarchical fine-grained criteria modeling for medical LLM alignment — structured clinical evaluation rubrics with multi-level criteria decomposition for improved medical reasoning and safety | [PDF](papers/ProMedical_Medical_LLM_Alignment.pdf) |
 | [Can Large Language Models Self-Correct in Medical Question Answering? (April 2026)](https://arxiv.org/abs/2604.00261) | Exploratory study of LLM self-correction in medical QA — finds reflection can both correct and introduce errors; analyzes error correction dynamics across multiple reflection steps on MedQA, HeadQA, PubMedQA | [PDF](papers/LLM_Self_Correct_Medical_QA.pdf) |
+| [Multi-Agent LLM Systems for Clinical Diagnosis: The Impact of Vendor Diversity (2026)](https://arxiv.org/abs/2603.04421) | MIT/Harvard: mixed-vendor multi-agent diagnosis outperforms single-vendor teams — complementary inductive biases surface correct diagnoses that homogeneous teams miss; SOTA on RareBench and DiagnosisArena | [PDF](papers/Multi_Agent_Clinical_Diagnosis.pdf) |
 
 ### Context & Memory
 
@@ -787,6 +792,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [StarVLA: Lego-like Codebase for VLA Model Development (April 2026)](https://arxiv.org/abs/2604.05014) | Open-source modular VLA framework — swappable backbone (VLM/world-model) and action heads, cross-embodiment learning, unified evaluation across LIBERO, SimplerEnv, RoboTwin, RoboCasa, BEHAVIOR-1K | [PDF](papers/StarVLA_Vision_Language_Action_Codebase.pdf) |
 | [Human-to-Robot Imitation Learning: A Survey and Taxonomy of Methods (April 2026)](https://arxiv.org/abs/2604.08995) | Comprehensive survey of human-to-robot imitation learning — behavioral cloning, inverse reinforcement learning, adversarial imitation, and their combinations; includes taxonomy, benchmarks, and open challenges | [PDF](papers/Human_to_Robot_Imitation_Learning.pdf) |
 | [The Great March 100: 100 Detail-oriented Tasks for Evaluating Embodied AI Agents (2026)](https://arxiv.org/abs/2601.11421) | 100 detail-oriented embodied AI tasks spanning manipulation, navigation, and reasoning — evaluates fine-grained physical world understanding beyond coarse task completion | [PDF](papers/Great_March_100_Embodied_AI_Agents.pdf) |
+| [VLA-Forget: Vision-Language-Action Unlearning for Embodied Foundation Models (April 2026)](https://arxiv.org/abs/2604.03956) | First unlearning method for VLA models — removes target behaviors while preserving general capabilities; introduces forget/retain/boundary splits and real-robot OXE benchmarks | [PDF](papers/VLA_Forget_Embodied_Unlearning.pdf) |
 
 ### Voice & Realtime Agents
 
