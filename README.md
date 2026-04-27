@@ -208,6 +208,7 @@ All prompts are open — click, copy, use directly.
 | 🖋 Literature Professor | Essay writing and literary analysis from a professor's perspective | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Literature_Professor.md) |
 | 📝 Technical Writer | Senior dev-docs writer — Stripe/Twilio/Google standards; blog posts, API docs, release notes, READMEs; no padding (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/technical_writer.txt) |
 | 📑 Academic Peer Reviewer | Comprehensive manuscript review — contribution assessment, methodology critique, reproducibility, ethics, constructive feedback, recommendation with confidence (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Academic_Peer_Reviewer.txt) |
+| 🗣 Talk-Normal Enabler | System prompt that removes AI slop — direct, informative, no filler/fluff/summary-stamps, no negation-based contrastive phrasing; 72–73% token reduction on GPT-4o-mini/GPT-5.4 with zero information loss; based on hexiecs/talk-normal (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/talk_normal_enabler.txt) |
 
 ### Learning & Education
 
