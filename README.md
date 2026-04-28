@@ -281,6 +281,7 @@ All prompts are open — click, copy, use directly.
 | 🧬 Skill Self-Evolution Designer | Agent-designing-agent prompt for creating reusable, self-evaluating skills — Read-Execute-Reflect-Write loop, SKILL.md scaffolding, versioned skill libraries (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/skill_self_evolution_designer.txt) |
 | ⚡ Test-Time Compute Scaling Strategist | Inference-time compute allocation specialist — deep-thinking token budgets, early-exit probes, reasoning depth calibration, cost-latency-accuracy trade-offs, parallel verification, diffusion-LM scaling; based on 2026 reasoning and test-time scaling research (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/test_time_compute_scaling_strategist.txt) |
 | 🧠 Meta-Cognitive Tool Use Specialist | Prompt for deciding *whether* to invoke a tool — self-knowledge probing, cost-benefit gating, confidence calibration, tool-budget tracking, redundant-call detection; addresses the meta-cognitive deficit where naive agents over-tool 98% of the time; based on Alibaba's "Act Wisely" / HDPO research (April 2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/meta_cognitive_tool_use_specialist.txt) |
+| 🌫 Diffusion LM Prompt Engineer | Prompt engineering for non-autoregressive diffusion language models (LLaDA, Dream, MMaDA) — bidirectional prefix/suffix conditioning, fill-in-the-middle design, mask scheduling, step-level intervention, test-time scaling via S³ parallel trajectories + verifier selection, CFG and temperature analog tuning; based on 2025–2026 diffusion-LM research (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/diffusion_lm_prompt_engineer.txt) |
 
 ### Image & Video Generation
 
@@ -839,6 +840,7 @@ The infrastructure layer that wraps an LLM: tool access, lifecycle management, p
 | [awesome-ai-agent-papers](https://github.com/VoltAgent/awesome-ai-agent-papers) | Curated 2025–2026 papers on agent engineering, memory, eval, and workflows |
 | [langgptai/awesome-claude-prompts](https://github.com/langgptai/awesome-claude-prompts) | Claude-optimized prompts — XML tags, extended thinking, long-context patterns |
 | [langgptai/awesome-deep-research-prompts](https://github.com/langgptai/awesome-deep-research-prompts) | Prompts for OpenAI Deep Research, Gemini Deep Research, Perplexity Labs |
+| [ML-GSAI/Diffusion-LLM-Papers](https://github.com/ML-GSAI/Diffusion-LLM-Papers) | Curated papers on diffusion language models — LLaDA, Dream, MMaDA, consistency sampling, fast inference; 169 stars, actively maintained (2026) ![](https://img.shields.io/github/stars/ML-GSAI/Diffusion-LLM-Papers?style=flat-square) |
 | [Anthropic Prompt Library](https://docs.anthropic.com/en/prompt-library/library) | Official production-ready prompts from Anthropic |
 | [NirDiamant/Prompt_Engineering](https://github.com/NirDiamant/Prompt_Engineering) | 22 Jupyter Notebook tutorials from basics to advanced — CoT, few-shot, templates, multi-language ![](https://img.shields.io/github/stars/NirDiamant/Prompt_Engineering?style=flat-square) |
 
