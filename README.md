@@ -256,6 +256,7 @@ All prompts are open — click, copy, use directly.
 | 🎯 Threat Detection Engineer | SOC detection engineering — Sigma rules, SIEM (Splunk/Sentinel/Elastic), MITRE ATT&CK coverage mapping, threat hunting, detection-as-code CI/CD (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/threat_detection_engineer.txt) |
 | 🎯 Goal Drift Auditor | Prompt for stress-testing system prompts against multi-turn value-conflict attacks — privacy, security, boundaries, compliance; based on ICLR 2026 agent-drift research (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/goal_drift_auditor.txt) |
 | 🕸 Agent Skill Supply-Chain Security Auditor | Supply-chain security audit for agent skill ecosystems — DDIPE poisoning detection, MCP schema hardening, cross-skill propagation analysis, provenance verification, least-privilege harness review; based on 2026 agent skill supply-chain attack research (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/agent_skill_supply_chain_auditor.txt) |
+| 🎭 Agent Red Team Architect | End-to-end adversarial test architect for AI agent systems — kill-chain design, indirect injection, multi-turn escalation, cross-channel attacks, ecosystem propagation, automated red-team pipelines; based on Black Hat 2026, USENIX Security 2026, and OpenAI 2026 safety research (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/agent_red_team_architect.txt) |
 
 ### Meta & Prompt Engineering
 
