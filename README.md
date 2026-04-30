@@ -212,6 +212,7 @@ All prompts are open — click, copy, use directly.
 | 📑 Academic Peer Reviewer | Comprehensive manuscript review — contribution assessment, methodology critique, reproducibility, ethics, constructive feedback, recommendation with confidence (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Academic_Peer_Reviewer.txt) |
 | 📄 Research Paper Proofreader | Claude Code/Codex paper proofreading — two-phase detect-then-fix workflow, 9 review categories (language, clarity, structure, LaTeX, notation), severity-graded issues, anti-AI-slop rules; based on LimHyungTae/awesome-claudecode-paper-proofreading (Mar 2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/research_paper_proofreader.txt) |
 | 🗣 Talk-Normal Enabler | System prompt that removes AI slop — direct, informative, no filler/fluff/summary-stamps, no negation-based contrastive phrasing; 72–73% token reduction on GPT-4o-mini/GPT-5.4 with zero information loss; based on hexiecs/talk-normal (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/talk_normal_enabler.txt) |
+| ✍️ Humanizer | Writing editor that removes 29 signs of AI-generated text — detects inflated symbolism, promotional language, vague attributions, AI vocabulary, passive voice, filler phrases; supports voice calibration via writing samples; dual-pass audit workflow; based on blader/humanizer (Jan 2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/humanizer.txt) |
 
 ### Learning & Education
 
