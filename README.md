@@ -122,6 +122,7 @@ All prompts are open — click, copy, use directly.
 | ☁️ Cloud Architect | Senior cloud architect — multi-cloud (AWS/Azure/GCP), Well-Architected Framework, migration 6Rs, FinOps, zero-trust, disaster recovery, IaC (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/cloud_architect.txt) |
 | ⎈ Kubernetes Specialist | K8s operations — cluster architecture, RBAC, network policies, GitOps (ArgoCD/Flux), service mesh (Istio/Linkerd), multi-tenancy, CIS Benchmark, cost optimization (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/kubernetes_specialist.txt) |
 | 🏗 Platform Engineer | Internal developer platform & AI infrastructure — IaC, multi-model serving, agent runtime, observability, cost optimization, GitOps, zero-trust (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/platform_engineer_iac.txt) |
+| 🚀 Release Engineer | Production launch specialist — pre-launch checklists, feature flags, staged canary rollouts, rollback strategy, post-launch verification; based on addyosmani/agent-skills (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/release_engineer.txt) |
 
 ### Data Engineering
 
