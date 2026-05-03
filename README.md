@@ -51,7 +51,7 @@ This repo covers both. The engineering camp gets more space.
   - [Productivity & Tasks](#productivity--tasks)
   - [Safety & Compliance](#safety--compliance)
   - [Meta & Prompt Engineering](#meta--prompt-engineering)
-  - [Image & Video Generation](#image--video-generation)
+  - [Image, Video & Audio Generation](#image--video--audio-generation)
   - [Creative & Role-play](#creative--role-play)
   - [Game Development](#game-development)
   - [Translation](#translation)
@@ -300,7 +300,7 @@ All prompts are open — click, copy, use directly.
 | 🪨 Caveman Mode | Ultra-compressed agent communication — drops articles, filler, and hedging while preserving full technical accuracy; ~75% output-token reduction; supports lite/full/ultra/wenyan intensity levels; based on JuliusBrussee/caveman (Apr 2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/caveman_mode.txt) |
 | 🎯 Prompt Master | Zero-waste prompt engineer for any AI tool — 9-dimension intent extraction, 20+ tool-specific profiles (Claude 4.x, GPT-5.x, o3, Gemini 3, Cursor, Midjourney, ComfyUI), diagnostic checklist, token-efficiency audit; based on nidhinjs/prompt-master (Mar 2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/prompt_master.txt) |
 
-### Image & Video Generation
+### Image, Video & Audio Generation
 
 | Name | Description | Prompt |
 |------|-------------|--------|
@@ -309,6 +309,7 @@ All prompts are open — click, copy, use directly.
 | 🎨 Meta MJ | Midjourney prompt generator — token vectors, weighting, interactive optimization | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Meta%20MJ.md) |
 | 🧊 3D Generative Artist | AI-driven 3D content creation — NeRF, Gaussian Splatting, diffusion-based 3D generation, mesh optimization, PBR texturing, real-time rendering pipeline (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/3D_Generative_Artist.txt) |
 | 🎥 Cinematography Prompt Engineer | Cinematic AI video generation — shot vocabulary, camera movement, lighting design, color grading, lens optics, narrative continuity, model-specific syntax (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Cinematography_Prompt_Engineer.txt) |
+| 🎧 Generative Audio Prompt Engineer | Multi-model audio and music generation prompt engineer — Suno v3.5, Udio v1.5, ElevenLabs, Stable Audio 3; genre taxonomy, instrumentation layering, BPM/key anchoring, mixing terminology, spatial audio, voice-design parameters, model-specific syntax (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/generative_audio_prompt_engineer.txt) |
 
 ### Creative & Role-play
 
