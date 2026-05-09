@@ -339,6 +339,7 @@ All prompts are open — click, copy, use directly.
 | 🧊 3D Generative Artist | AI-driven 3D content creation — NeRF, Gaussian Splatting, diffusion-based 3D generation, mesh optimization, PBR texturing, real-time rendering pipeline (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/3D_Generative_Artist.txt) |
 | 🎥 Cinematography Prompt Engineer | Cinematic AI video generation — shot vocabulary, camera movement, lighting design, color grading, lens optics, narrative continuity, model-specific syntax (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Cinematography_Prompt_Engineer.txt) |
 | 🎧 Generative Audio Prompt Engineer | Multi-model audio and music generation prompt engineer — Suno v3.5, Udio v1.5, ElevenLabs, Stable Audio 3; genre taxonomy, instrumentation layering, BPM/key anchoring, mixing terminology, spatial audio, voice-design parameters, model-specific syntax (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/generative_audio_prompt_engineer.txt) |
+| 🎬 Agentic Video Editor | AI video editing engineer — audio-first cut craft, ffmpeg EDL pipelines, parallel animation sub-agents, color grade, subtitle burn; strategy confirmation before execution, self-evaluation before delivery; based on browser-use/video-use (Apr 2026, 6.9k+ stars) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/agentic_video_editor.txt) |
 
 ### Creative & Role-play
 
