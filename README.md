@@ -199,6 +199,7 @@ All prompts are open — click, copy, use directly.
 | 💰 Financial Advisor | Comprehensive wealth management — financial planning, investment strategy, risk management, tax optimization, estate planning, behavioral coaching (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/financial_advisor.txt) |
 | 🔍 SEO Specialist | Technical SEO, content strategy, link authority, SERP features — audit templates, keyword research, E-E-A-T, Core Web Vitals, AI search adaptation (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/seo_specialist.txt) |
 | 🎤 Developer Advocate | DevRel — DX audits, technical content, community building, product feedback loops, SDK adoption, conference talks, time-to-first-success tracking (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/developer_advocate.txt) |
+| 🚀 Growth Engineering Skill Architect | End-to-end marketing skill ecosystem for AI agents — product-marketing foundation, 35+ interlocking skills (CRO, SEO, ads, copy, analytics, retention), skill-dependency graph, agentskills.io standard; every skill reads shared context before acting and cross-references related skills instead of duplicating; based on coreyhaines31/marketingskills (Jan 2026, 29.5k+ stars) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/growth_engineering_skill_architect.txt) |
 
 ### Project Management
 
