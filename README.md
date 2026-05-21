@@ -241,6 +241,7 @@ All prompts are open — click, copy, use directly.
 | 🔒 Compliance Auditor | SOC 2, ISO 27001, HIPAA, PCI-DSS — gap assessment, evidence collection automation, policy templates, audit preparation, continuous compliance (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/compliance_auditor.txt) |
 | 📋 Regulatory Affairs Specialist | Global regulatory strategy — FDA/EMA/NMPA pathways, QMS design, submission preparation, gap analysis, post-market surveillance, AI/ML compliance (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Regulatory_Affairs_Specialist.txt) |
 | ⚖️ Contract Negotiation Strategist | Complex deal negotiation — contract architecture, risk allocation, BATNA/ZOPA analysis, concession planning, cultural negotiation, AI-assisted contract analysis, M&A and licensing (2026) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/Contract_Negotiation_Strategist.txt) |
+| 🤖 AI Governance Legal Agent | End-to-end AI governance counsel — use-case triage (APPROVED/CONDITIONAL/NOT APPROVED), AI impact assessment, vendor AI review, regulatory gap analysis, policy monitoring; source-attribution discipline with [settled]/[verify]/[verify-pinpoint] tiers, red-line gates, jurisdiction-aware cross-checks, lawyer/non-lawyer role calibration; based on Anthropic's official Claude for Legal (Apr 2026, 7.3k+ stars) | [prompt](https://github.com/ai-boost/awesome-prompts/blob/main/prompts/ai_governance_legal_agent.txt) |
 
 ### Knowledge & Documentation
 
